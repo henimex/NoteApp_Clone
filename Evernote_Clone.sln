@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evernote_Clone", "Evernote_Clone.csproj", "{761DE4A8-9DB8-4420-B976-95142B405ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evernote_Clone", "Evernote_Clone.csproj", "{761DE4A8-9DB8-4420-B976-95142B405ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalSepeechToText", "..\LocalSepeechToText\LocalSepeechToText.csproj", "{3E7D19E1-689E-4C23-89BB-680A22DD411C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{761DE4A8-9DB8-4420-B976-95142B405ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{761DE4A8-9DB8-4420-B976-95142B405ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{761DE4A8-9DB8-4420-B976-95142B405ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7D19E1-689E-4C23-89BB-680A22DD411C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7D19E1-689E-4C23-89BB-680A22DD411C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7D19E1-689E-4C23-89BB-680A22DD411C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7D19E1-689E-4C23-89BB-680A22DD411C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

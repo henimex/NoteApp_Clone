@@ -28,6 +28,5 @@ namespace Evernote_Clone.ViewModel
             LoginCommand = new LoginCommand(this);
         }
 
-
     }
 }

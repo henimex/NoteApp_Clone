@@ -8,7 +8,8 @@ namespace Evernote_Clone.ViewModel.Helpers
 {
     public class DatabaseHelper
     {
-        private static string dbFile = Path.Combine(Environment.CurrentDirectory, "notesDb.db3");
+        //private static string dbFile = Path.Combine(Environment.CurrentDirectory, "notesDb.db3");
+        private static string dbFile = Path.Combine("D:\\", "notesDb.db3");
 
         public static bool Insert<T>(T item)
         {

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
+using Evernote_Clone.Model;
 
 namespace Evernote_Clone.ViewModel.Commands
 {
     public class NewNotebookCommand : ICommand
     {
-        public NotesVM Vm;
+        public NotesVM Vm { get; set; }
 
         public NewNotebookCommand(NotesVM vm)
         {
@@ -21,7 +22,7 @@ namespace Evernote_Clone.ViewModel.Commands
 
         public void Execute(object parameter)
         {
-            //TODO: Create new Notebook
+            Vm.CreateNoteBook();
         }
 
         public event EventHandler CanExecuteChanged;
